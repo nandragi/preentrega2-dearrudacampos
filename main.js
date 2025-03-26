@@ -34,7 +34,7 @@ const Simulador = {
             } else { 
                 resumen += `${registro.mes}/${registro.ano}: $${registro.monto}\n`; 
             } 
-        }); 
+    }); 
         alert(resumen); // Mostrar el resumen en un alerta 
         console.log("Histórico completo mostrado en consola:"); 
         console.log(resumen); // Mostrar el histórico completo en consola 
@@ -50,7 +50,7 @@ const Simulador = {
                 alert(`Aún necesitas $${this.meta - this.totalAhorro} para alcanzar tu meta.`); 
             } 
         } 
-    }; //auxiliares 
+   }; //auxiliares 
     function solicitarEntrada(mensaje, validador) { 
         let entrada; do { 
             entrada = prompt(mensaje); 
